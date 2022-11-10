@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Contact from './Contact';
 import Project from './Project';
 import Skills from './Skills';
-import { Link } from 'react-router-dom';
+import PDFResume from "./Images/Resume.pdf"
 
 
 const Home = () => {
@@ -31,7 +31,9 @@ const Home = () => {
         <p className='text-center text-lg'>My name is Dipak Mandal. I'm pursuing a Web Development Course from the School of Accelerated Learning. I'm passionate about exploring and learning new things and my goal is to pursue this passion within the field of web development. In my free time, I like playing Candy Crush.</p>
        <div className='grid place-content-center'>
        <button className=' border-4 block w-fit my-4 mb-12 px-2 py-1 rounded font-semibold hover:bg-neutral-400 '>
-        <Link to="/resume">Resume</Link>
+       <a href={PDFResume} target="_blank" 
+                    rel="noreferrer">Resume
+                </a>
        </button>
        </div>
       </div>
