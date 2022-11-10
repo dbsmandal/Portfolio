@@ -1,12 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Skills = () => {
   return (
     <div>
-      personal portfolio
       
     </div>
   )
 }
 
-export default App
+export default Skills
