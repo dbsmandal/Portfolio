@@ -1,10 +1,15 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import Contact from './Contact';
+import Project from './Project';
+import Skills from './Skills';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
   return (
-    <div>
+  <>
+  <div>
       <div className=' h-56 w-full pt-10 pb-10 flex flex-col gap-3 bg-gradient-to-bl from-green-400 to-red-400 via-purple-300 animate-gradient-x text-white'>
 
         <h1 className='text-center text-5xl'>Dipak Mandal</h1>
@@ -25,11 +30,25 @@ const Home = () => {
         <h1 className='text-center text-5xl'>About Me</h1>
         <p className='text-center text-lg'>My name is Dipak Mandal. I'm pursuing a Web Development Course from the School of Accelerated Learning. I'm passionate about exploring and learning new things and my goal is to pursue this passion within the field of web development. In my free time, I like playing Candy Crush.</p>
        <div className='grid place-content-center'>
-       <button className=' border-4 block w-fit my-4 mb-12 px-2 py-1 rounded font-semibold hover:bg-neutral-400 '>Resume</button>
+       <button className=' border-4 block w-fit my-4 mb-12 px-2 py-1 rounded font-semibold hover:bg-neutral-400 '>
+        <Link to="/resume">Resume</Link>
+       </button>
        </div>
       </div>
 
     </div>
+    <Project/>
+    <Skills/>
+    <Contact/>
+   
+
+
+
+
+
+
+  </>
+    
   )
 }
 
