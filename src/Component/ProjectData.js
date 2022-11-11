@@ -16,7 +16,7 @@ const ProjectData= [
         image:img2,
         name:"React E-commerce",
         description:"A E-commerce web app build with React App and TailwindCSS",
-        url:"https://dreamlearn.vercel.app/",
+        url:"https://react-ecommerce-website-with-redux.netlify.app/",
         codeurl:"https://github.com/dbsmandal/React-Ecommerce-Website",
         id:2
     },
