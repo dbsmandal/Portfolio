@@ -23,7 +23,7 @@ const Navbar = () => {
                     </ul>
                     <ul className='flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium'>
                         <li>
-                            <Link className='text-gray-900 dark:text-white hover:underline' to="/contact">Conatct</Link>
+                            <Link className='text-gray-900 dark:text-white hover:underline' to="/contact">Contact</Link>
                         </li>
                     </ul>
 
