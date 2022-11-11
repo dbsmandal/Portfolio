@@ -23,7 +23,7 @@ const Project = () => {
                       {currElm.description}
                     </span>
                   </div>
-                  <div className='grid sm:grid-cols-1 md:grid-cols-2 text-neutral-900   relative bottom-px'>
+                  <div className='grid sm:grid-cols-1 md:grid-cols-2  gap-2 text-neutral-900   relative bottom-px'>
                     <a 
                     className='bg-neutral-400 sm:mx-0 md:mx-3 my-0 sm:my-3 md:my-0 flex justify-center items-center px-1 rounded' rel="noopener noreferrer" 
                     target='_blank' 
